@@ -4,12 +4,22 @@
 Aplikasi Perpustakaan berbasis web simple menggunakan php native
 
 
-## Installation
+## Deployment
+
+1. **Clone Repository**
 
 ```bash
-  create database 'perpustakaan'
+  git clone https://github.com/Alvinn549/simple-perpustakaan
 ```
+
+2. **Buat database**
+
 ```bash
-  import perpustakaan.sql
+  create database named `perpustakaan`
 ```
-    
+
+3. **Import database**
+
+```bash
+  open folder `database/` and import the file `perpustakaan.sql` to your database
+```
